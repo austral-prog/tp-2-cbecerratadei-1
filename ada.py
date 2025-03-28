@@ -1,8 +1,8 @@
 def ada():
     first_name = "AdA"
     last_name = "LoVeLAce"
-    espacios = " "
-    print(first_name.lower() + espacios + last_name.lower())
-    print(first_name.title() + espacios + last_name.title())
-    print(first_name.upper() + espacios + last_name.upper())
-    print(espacios * 8 + first_name.lower() + espacios + last_name.lower())
+    print(f"{first_name.lower()} {last_name.lower()}")
+    print(f"{first_name.title()} {last_name.title()}")
+    print(f"{first_name.upper()} {last_name.upper()}")
+    print(f"\t\t{first_name.lower()} {last_name.lower()}")
+print(ada())
