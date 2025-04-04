@@ -2,7 +2,7 @@ def change():
     gasto = 23.75
     dinero_recibido = 100
 
-    print("Ingrese gasto:")
+    print("Ingresar gasto:")
     print(gasto)
     print("Dinero recibido")
     print(dinero_recibido)
